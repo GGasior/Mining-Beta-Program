@@ -1,0 +1,33 @@
+# Connecting your repository to GitHub
+
+## 1. Create a new repository on GitHub
+- Go to github.com and sign in
+- Click the "+" button in the top right and select "New repository"
+- Name it "LOTcryCRT"
+- Make it public or private as desired
+- Don't initialize with a README, .gitignore, or license (we've already created these)
+- Click "Create repository"
+
+## 2. Connect your local repository
+After creating the repository on GitHub, run these commands (replace YOUR_USERNAME with your GitHub username):
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/LOTcryCRT.git
+git branch -M main
+git push -u origin main
+```
+
+## 3. Verify the connection
+```bash
+git remote -v
+```
+
+You should see:
+```
+origin  https://github.com/YOUR_USERNAME/LOTcryCRT.git (fetch)
+origin  https://github.com/YOUR_USERNAME/LOTcryCRT.git (push)
+```
+
+## 4. That's it!
+Your repository is now on GitHub. You can view it at:
+https://github.com/YOUR_USERNAME/LOTcryCRT 

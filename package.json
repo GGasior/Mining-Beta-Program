@@ -1,0 +1,27 @@
+{
+  "name": "LOTcryCRT",
+  "version": "1.0.0",
+  "description": "Lotto Neural Network with lightweight distributed client",
+  "main": "light-client.js",
+  "scripts": {
+    "start": "node light-client.js",
+    "client": "node light-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lotto",
+    "neural-network",
+    "distributed-computing",
+    "lightweight-client"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^4.7.4",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
