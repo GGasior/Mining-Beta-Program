@@ -15,8 +15,8 @@ The lightweight client allows you to participate in distributed training without
 
 1. Clone this repository
    ```
-   git clone https://github.com/yourusername/LOTcryCRT.git
-   cd LOTcryCRT
+   git clone https://github.com/GGasior/Mining-Beta-Program
+   cd Mining-Beta-Program
    ```
 2. Install dependencies:
    ```
